@@ -51,3 +51,14 @@ Run this with the Docker Compose file in the backend repo:
 
 ```bash
 docker-compose up
+
+##📦frontend
+ ┣ 📂components
+ ┃ ┣ 📜CourseForm.jsx         # Form to add new courses with prerequisites
+ ┃ ┣ 📜CourseList.jsx         # Lists all courses and handles deletion
+ ┃ ┗ 📜InstanceSection.jsx    # Handles course delivery instance operations
+ ┣ 📜App.js                   # Main app component
+ ┣ 📜api.js                   # Axios instance and API methods
+ ┣ 📜index.js                 # React entry point
+ ┣ 📜index.css                # Global styles
+ ┗ 📜Dockerfile               # Dockerfile to build the frontend image
