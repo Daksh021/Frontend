@@ -63,5 +63,5 @@ docker-compose up
  ┣ 📜index.css                # Global styles
  ┗ 📜Dockerfile               # Dockerfile to build the frontend image
 
-##Thank you
+
 Thank you for reviewing my application — I’m excited at the possibility of growing and contributing at IIT Bombay.
