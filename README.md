@@ -19,6 +19,34 @@ A React-based frontend application for managing courses and their delivery insta
 
 ---
 
+##📘 Course ID Naming Convention
+Use department codes followed by numeric codes. Examples:
+
+CS101 → Computer Science
+
+MECH202 → Mechanical Engineering
+
+MATH203 → Mathematics
+
+##📗 Prerequisites Format
+Comma-separated list of valid course IDs.
+
+Example:-
+CS101, MATH203
+
+##🎓 Course Instance Format
+json
+Copy
+Edit
+{
+  "year": 2024,
+  "semester": 1,
+  "courses": {
+    "courseId": "CS101"
+  }
+}
+
+
 ## ✨ Features
 
 - Create course with multiple prerequisites
